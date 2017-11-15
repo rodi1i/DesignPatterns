@@ -20,7 +20,7 @@ namespace StructuralPatterns.Factories.SimpleFactory
                 case CoffeeType.Capuchino:
                     return new Coffee(150, 100, coffeeType);
                 case CoffeeType.Mochachino:
-                    return new Coffee(200, 150, coffeeType);
+                    return new Coffee(200, 150, coffeeType); 
                 case CoffeeType.Machiato:
                     return new Coffee(100, 200, coffeeType);
                 default:

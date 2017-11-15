@@ -12,7 +12,7 @@ namespace StructuralPatterns.Builder.Factory
         public BikeFactory()
             : base(new Bike())
         {
-        }
+        } 
 
         public override void CreateBody()
         {

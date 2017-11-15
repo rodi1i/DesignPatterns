@@ -13,3 +13,4 @@ namespace StructuralPatterns.Factories.FactoryMethod
         public abstract Gsm CreateGsm();
     }
 }
+ 

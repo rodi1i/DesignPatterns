@@ -10,7 +10,7 @@ namespace StructuralPatterns.Singleton
     {
         private static ThreadUnsafeLogger instance;
         private List<LogEvent> Logs;
-
+         
         protected ThreadUnsafeLogger()
         {
             this.Logs = new List<LogEvent>();

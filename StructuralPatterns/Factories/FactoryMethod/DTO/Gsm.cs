@@ -15,7 +15,7 @@ namespace StructuralPatterns.Factories.FactoryMethod.DTO
         public int Colors { get; set; }
 
         public virtual void Start() { }
-        public override string ToString()
+        public override string ToString() 
         {
             return $"Model {this.Model}; Dimension X {this.DimensionX}; Dimension Y {this.DimensionY}; Dimension Z {this.DimensionZ}; Colors {this.Colors}";
         }

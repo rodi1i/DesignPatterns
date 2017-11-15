@@ -8,5 +8,5 @@ namespace StructuralPatterns.Factories.AbstractFactory.DTO
 {
     public class KalzonePizza:Pizza
     {
-    }
+    } 
 }

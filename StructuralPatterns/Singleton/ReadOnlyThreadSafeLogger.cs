@@ -11,7 +11,7 @@ namespace StructuralPatterns.Singleton
         protected ReadOnlyThreadSafeLogger()
         {
             this.Logs = new List<LogEvent>();
-        }
+        } 
 
         public static ReadOnlyThreadSafeLogger Instance()
         {

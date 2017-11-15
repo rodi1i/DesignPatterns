@@ -11,7 +11,7 @@ namespace StructuralPatterns.Factories.AbstractFactory
     {
         public override Pizza CreateKalzone()
         {
-            return new KalzonePizza()
+            return new KalzonePizza() 
             {
                 Grams = 200,
                 Ingredients = "pochti nishto",

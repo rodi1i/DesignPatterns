@@ -15,3 +15,4 @@ namespace StructuralPatterns.Factories.FactoryMethod
         }
     }
 }
+ 

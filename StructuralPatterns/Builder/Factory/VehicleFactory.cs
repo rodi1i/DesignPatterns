@@ -12,7 +12,7 @@ namespace StructuralPatterns.Builder.Factory
         internal Vehicle Vehicle;
         internal VehicleFactory(Vehicle vehicle)
         {
-            this.Vehicle = vehicle;
+            this.Vehicle = vehicle; 
         }
 
         public abstract void CreateEngine();

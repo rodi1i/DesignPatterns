@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StructuralPatterns.Singleton
 {
-    public class LazyThreadSafeLogger
+    public class LazyThreadSafeLogger 
     {
         private static readonly Lazy<LazyThreadSafeLogger> lazy =
             new Lazy<LazyThreadSafeLogger>(() => new LazyThreadSafeLogger());

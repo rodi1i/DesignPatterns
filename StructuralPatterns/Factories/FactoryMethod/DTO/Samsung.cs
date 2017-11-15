@@ -13,7 +13,7 @@ namespace StructuralPatterns.Factories.FactoryMethod.DTO
             Console.WriteLine("Samsung started");
         }
 
-        public void TalkAsSamsung()
+        public void TalkAsSamsung() 
         {
             Console.WriteLine("Hello I am Samsung");
         }

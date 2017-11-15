@@ -15,7 +15,7 @@ namespace StructuralPatterns.Builder.Factory
         }
 
         public override void CreateBody()
-        {
+        { 
             this.Vehicle.Name = "caaar";
             this.Vehicle.Color = "red";
         }

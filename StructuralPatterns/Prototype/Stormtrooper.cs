@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace StructuralPatterns.Prototype
 {
     public class Stormtrooper : StormtrooperPrototype
-    {
+    { 
         public float Height { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }

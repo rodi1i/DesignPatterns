@@ -15,3 +15,4 @@ namespace StructuralPatterns.Factories.SimpleFactory.DTO
         Machiato = 4,
     }
 }
+ 

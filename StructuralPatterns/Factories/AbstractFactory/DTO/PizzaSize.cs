@@ -9,7 +9,7 @@ namespace StructuralPatterns.Factories.AbstractFactory.DTO
     public enum PizzaSize
     {
         Small,
-        Medium,
+        Medium, 
         Big
     }
 }

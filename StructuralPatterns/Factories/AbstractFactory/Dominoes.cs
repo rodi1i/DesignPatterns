@@ -10,7 +10,7 @@ namespace StructuralPatterns.Factories.AbstractFactory
     public class Dominoes : PizzaFactory
     {
         public override Pizza CreateKalzone()
-        {
+        { 
             return new KalzonePizza()
             {
                 Grams = 800,

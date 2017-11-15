@@ -13,7 +13,7 @@ namespace StructuralPatterns.Factories.FactoryMethod.DTO
             Console.WriteLine("Apple started");
         }
 
-        public void TalkAsApple()
+        public void TalkAsApple() 
         {
             Console.WriteLine("Hello I am Apple");
         }

@@ -20,7 +20,7 @@ namespace StructuralPatterns.Factories.SimpleFactory.DTO
         }
 
         public override string ToString()
-        {
+        { 
             return $"Coffee milligrams - {this.CoffeeMg} ; Milk milligrams - {this.MilkMg}; Type - {this.CoffeeType}";
         }
     }

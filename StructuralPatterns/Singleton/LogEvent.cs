@@ -8,7 +8,7 @@ namespace StructuralPatterns.Singleton
 {
     public class LogEvent
     {
-        public DateTime EventTime { get; set; }
+        public DateTime EventTime { get; set; } 
         public string Message { get; set; }
 
         public LogEvent(string message)

@@ -9,7 +9,7 @@ namespace StructuralPatterns.Singleton
     public class NestedThreadSafeLogger
     {
         private List<LogEvent> Logs;
-
+         
         protected NestedThreadSafeLogger()
         {
             this.Logs = new List<LogEvent>();

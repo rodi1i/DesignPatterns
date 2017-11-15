@@ -9,7 +9,7 @@ namespace StructuralPatterns.Factories.AbstractFactory.DTO
     public enum PizzaType
     {
         Kalzone, 
-        Peperoni,
+        Peperoni, 
         QuartoFormagi
     }
 }

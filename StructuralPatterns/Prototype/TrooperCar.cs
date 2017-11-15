@@ -9,5 +9,5 @@ namespace StructuralPatterns.Prototype
     public class TrooperCar
     {
         public int HorsePower { get; set; }
-    }
+    } 
 }

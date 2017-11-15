@@ -8,7 +8,7 @@ namespace StructuralPatterns.Factories.AbstractFactory.DTO
 {
     public abstract class Pizza
     {
-        public float Grams { get; set; }
+        public float Grams { get; set; } 
         public PizzaSize Size { get; set; }
         public decimal Price { get; set; }
         public string Ingredients { get; set; }

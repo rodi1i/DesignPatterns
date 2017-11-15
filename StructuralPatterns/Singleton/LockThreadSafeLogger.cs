@@ -8,7 +8,7 @@ namespace StructuralPatterns.Singleton
 {
     public class LockThreadSafeLogger
     {
-        private static LockThreadSafeLogger instance;
+        private static LockThreadSafeLogger instance; 
         private List<LogEvent> Logs;
         private static object syncRoot = new object();
 

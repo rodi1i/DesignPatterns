@@ -11,7 +11,7 @@ namespace StructuralPatterns.Builder.DTO
         public int? Doors { get; set; }
         public int Wheels { get; set; }
         public string Name { get; set; }
-        public string Color { get; set; }
+        public string Color { get; set; } 
         public string Engine { get; set; }
     }
 }
